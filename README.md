@@ -10,6 +10,7 @@ Repo for my dot emacs/spacemacs files
 * C-M-f Forward-sexp move to the closing parenthesis
 * C-M-b Backford-sexp move to the open parenthesis
 * C-h w {Command_name} to see the key binding of the given command
+* C-t swap two letters
 
 
 
