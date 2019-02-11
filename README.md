@@ -1,7 +1,7 @@
 # dotemacs
 Repo for my dot emacs/spacemacs files
 
-## Cheat sheet
+## Cheat sheet (Some commands could be Spacemacs specific)
 
 * C-w Cut (kill)
 * M-w Copy
@@ -13,4 +13,7 @@ Repo for my dot emacs/spacemacs files
 * C-t swap two letters
 * C-x C-t to swap two lines, swap the bottom line with the line above
 * C-M-up-arrow/down-arrow move a line up and down, similar to vscode like editor, I think this is space macs specific thing, but it's good.
+* C-x C-f toggle function bodies, show {...} for a function body when collapse
+* SPC v -> (/[/{ to wrap visual selection with the brackets. One can also achieve the same in normal emacs by highlighting the text and type the desired brackets. (This might be the Spacemacs behavior, may need to type M-(/[/{ in vanilla emacs, need to verify)
+* C-x g Magit status
 
