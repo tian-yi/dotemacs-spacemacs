@@ -17,3 +17,5 @@ Repo for my dot emacs/spacemacs files
 * SPC v -> (/[/{ to wrap visual selection with the brackets. One can also achieve the same in normal emacs by highlighting the text and type the desired brackets. (This might be the Spacemacs behavior, may need to type M-(/[/{ in vanilla emacs, need to verify)
 * C-x g Magit status
 * M-. Find definition at point. Super useful jumping around the code base. But need to have good language server support I think. Works great with Typescript, but not with Javascript :(
+* SPC t E e Switch to holy mode from evil mode
+* M-m t E e Switch to Hybrid mode from holy mode
