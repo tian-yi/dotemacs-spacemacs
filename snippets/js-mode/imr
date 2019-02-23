@@ -1,0 +1,5 @@
+#key : imr
+#name : Import React
+#contributor: Tianyi Wang
+# --
+import React from 'react';

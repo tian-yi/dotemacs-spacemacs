@@ -42,7 +42,10 @@ This function should only modify configuration layer settings."
      yaml
      emoji
      helm
-     auto-completion
+     (auto-completion :variables
+                      auto-completion-enable-snippets-in-popup t
+                      auto-completion-enable-help-tooltip t
+                      )
      better-defaults
      emacs-lisp
      git

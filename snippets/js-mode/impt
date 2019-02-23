@@ -1,0 +1,6 @@
+#key : impt
+#name : Import propTypes
+#contributor: Tianyi Wang
+# --
+
+import PropTypes from 'prop-types';
