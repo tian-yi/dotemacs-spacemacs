@@ -1,0 +1,7 @@
+#key : cdm
+#name : componentDidMount
+#contributor: Tianyi Wang
+# --
+componentDidMount() {
+
+}

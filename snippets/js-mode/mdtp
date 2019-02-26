@@ -1,0 +1,9 @@
+#key : mdtp
+#name : mapDispatchToProps
+#contributor: Tianyi Wang
+# --
+const mapDispatchToProps = (dispatch) => ({
+  ${1:fetchData}() {
+    return dispatch(${1:fetchData()});
+  },
+});

@@ -1,0 +1,7 @@
+#key : mstp
+#name : mapStateToProps
+#contributor: Tianyi Wang
+# --
+const mapStateToProps = (state) => ({
+
+});
