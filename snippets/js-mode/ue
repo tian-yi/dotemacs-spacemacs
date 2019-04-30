@@ -1,0 +1,6 @@
+#key : ue
+#name : useEffect
+#contributor: Tianyi Wang
+# --
+
+useEffect(() => {}, []);

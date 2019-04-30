@@ -1,0 +1,5 @@
+#key : cl
+#name : console.log
+#contributor: Tianyi Wang
+# --
+console.log()

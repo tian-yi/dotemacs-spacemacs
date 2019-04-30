@@ -1,0 +1,5 @@
+#key : impst
+#name : import React and useState
+#contributor: Tianyi Wang
+# --
+import React, { useState } from 'react';

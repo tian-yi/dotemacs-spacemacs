@@ -1,5 +1,5 @@
 #key : fc
-#name : Functional component
+#name : Functional component for pure JavaScript
 #contributor: Tianyi Wang
 # --
 import React from 'react';

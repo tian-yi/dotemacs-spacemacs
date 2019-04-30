@@ -1,0 +1,30 @@
+#key : tfcre
+#name : Functional component for Typescript with redux
+#contributor: Tianyi Wang
+# --
+import React from 'react';
+
+import {connect} from 'react-redux'
+
+type Props = MappedDispatch & MappedState;
+
+const ${1:Component}: React.FC<Props> = (props) => {
+  return <div />;
+};
+
+type MappedState = ReturnType<typeof mapStateToProps>;
+const mapStateToProps = (state: AppState) => {
+  return {};
+};
+
+type MappedDispatch = ReturnType<typeof mapDispatchToProps>;
+const mapDispatchToProps = (dispatch: ThunkDispatch) => ({
+  fuc: (p: ptype) => dispatch(),
+});
+
+const EnhancedComponent = connect(
+  mapStateToProps,
+  mapDispatchToProps
+)($1);
+
+export default EnhancedComponent;

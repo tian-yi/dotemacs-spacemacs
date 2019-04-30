@@ -1,0 +1,13 @@
+#key : tfc
+#name : Functional component for Typescript
+#contributor: Tianyi Wang
+# --
+import React from 'react';
+
+type Props = {};
+
+const ${1:Component}: React.FC<Props> = (props) => {
+  return <div />;
+};
+
+export default $1;

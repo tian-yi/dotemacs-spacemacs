@@ -1,0 +1,5 @@
+#key : impef
+#name : import React and useEffect
+#contributor: Tianyi Wang
+# --
+import React, { useEffect } from 'react';
