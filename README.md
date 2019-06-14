@@ -10,7 +10,8 @@ Repo for my dot emacs/spacemacs files
 * C-M-f Forward-sexp move to the closing parenthesis
 * C-M-b Backford-sexp move to the open parenthesis
 * C-h w {Command_name} to see the key binding of the given command
-* C-h v describe variable's current value
+* C-h v describe variable's current value 
+* more C-h commends here https://stackoverflow.com/a/965284                                                                              
 * C-t swap two letters
 * C-x C-t to swap two lines, swap the bottom line with the line above
 * C-M-up-arrow/down-arrow move a line up and down, similar to vscode like editor, I think this is space macs specific thing, but it's good.

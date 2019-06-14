@@ -43,6 +43,8 @@ This function should only modify configuration layer settings."
      elixir
      emoji
      helm
+     ;; ivy
+     ;; (ivy :variables ivy-enable-advanced-buffer-information t)
      (auto-completion :variables
                       auto-completion-enable-snippets-in-popup t
                       auto-completion-enable-help-tooltip t
@@ -423,7 +425,7 @@ It should only modify the values of Spacemacs settings."
    ;; List of search tool executable names. Spacemacs uses the first installed
    ;; tool of the list. Supported tools are `rg', `ag', `pt', `ack' and `grep'.
    ;; (default '("rg" "ag" "pt" "ack" "grep"))
-   dotspacemacs-search-tools '("rg" "ag" "pt" "ack" "grep")
+   dotspacemacs-search-tools '("rg" "ag" "pt" "ack" "grep" )
 
    ;; Format specification for setting the frame title.
    ;; %a - the `abbreviated-file-name', or `buffer-name'
@@ -478,8 +480,9 @@ This function is called immediately after `dotspacemacs/init', before layer
 configuration.
 It is mostly for variables that should be set before packages are loaded.
 If you are unsure, try setting them in `dotspacemacs/user-config' first."
-  ;; (add-to-list 'exec-path "~/.nvm/versions/node/v10.14.2/bin/" t)
-  (add-to-list 'exec-path "/usr/local/bin/" t)
+  ;; (add-to-list 'exec-path "~/.nvm/versions/node/v10.15.3/bin/" t)
+  ;; (add-to-list 'exec-path "/usr/local/bin/" t)
+
   )
 
 
@@ -497,8 +500,11 @@ This function is called at the very end of Spacemacs startup, after layer
 configuration.
 Put your configuration code here, except for variables that should be set
 before packages are loaded."
+  
   (global-set-key (kbd "H-p") 'helm-projectile-find-file)
   (global-set-key (kbd "H-/") 'spacemacs/helm-project-smart-do-search)
+  ;; (global-set-key (kbd "H-p") 'counsel-projectile-find-file)
+  ;; (global-set-key (kbd "H-/") 'spacemacs/counsel-search)
   (global-set-key (kbd "H-o") 'find-file-at-point)
   (global-set-key (kbd "H-j") 'hs-toggle-hiding)
   (global-unset-key (kbd "H-<down-mouse-1>"))
