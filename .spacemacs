@@ -221,11 +221,11 @@ It should only modify the values of Spacemacs settings."
    ;; with 2 themes variants, one dark and one light)
    dotspacemacs-themes '(
                          doom-nova
-                         dracula
                          sanityinc-tomorrow-eighties
                          doom-dracula
-                         base16-eighties
                          solarized-light
+                         solarized-dark
+                         spacemacs-light
                          zenburn
                          )
 
