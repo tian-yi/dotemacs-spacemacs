@@ -54,7 +54,7 @@ This function should only modify configuration layer settings."
      common-lisp
      git
      github
-     markdown
+     (markdown :variables markdown-live-preview-engine 'vmd)
      treemacs
      (org :variables
           org-enable-org-journal-support t
@@ -426,7 +426,7 @@ It should only modify the values of Spacemacs settings."
    ;; List of search tool executable names. Spacemacs uses the first installed
    ;; tool of the list. Supported tools are `rg', `ag', `pt', `ack' and `grep'.
    ;; (default '("rg" "ag" "pt" "ack" "grep"))
-   dotspacemacs-search-tools '("rg" "ag" "pt" "ack" "grep" )
+   dotspacemacs-search-tools '("rg" "ag" "pt" "ack" "grep")
 
    ;; Format specification for setting the frame title.
    ;; %a - the `abbreviated-file-name', or `buffer-name'
