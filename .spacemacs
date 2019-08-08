@@ -52,7 +52,6 @@ This function should only modify configuration layer settings."
      (wakatime :variables
                wakatime-api-key  "20ad0daa-4efa-451e-af76-3919111c4a9e"
                wakatime-cli-path "/Users/tianyi/.pyenv/shims/wakatime")
-     )
      better-defaults
      emacs-lisp
      common-lisp
