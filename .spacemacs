@@ -49,6 +49,10 @@ This function should only modify configuration layer settings."
                       auto-completion-enable-snippets-in-popup t
                       auto-completion-enable-help-tooltip t
                       )
+     (wakatime :variables
+               wakatime-api-key  "20ad0daa-4efa-451e-af76-3919111c4a9e"
+               wakatime-cli-path "/Users/tianyi/.pyenv/shims/wakatime")
+     )
      better-defaults
      emacs-lisp
      common-lisp
